@@ -12,7 +12,7 @@ class MemberSeeder extends Seeder
 		$kategori = new Kategori();
 
 
-		$k= $kategori->first();
+		$k = $kategori->first();
 		echo $k['nama_kategori'];
 	}
 }
